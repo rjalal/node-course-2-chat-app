@@ -3,15 +3,15 @@ var socket = io();
 socket.on('connect', function() {
     console.log('Connected to the sever');
 
-    socket.emit('createEmail', {
-        to: 'dalal@gmail.com',
-        text: 'how is it going'
-    });
+    // socket.emit('createEmail', {
+    //     to: 'dalal@gmail.com',
+    //     text: 'how is it going'
+    // });
 
-    socket.emit('createMessage',{
-        from: 'Dalal',
-        text: 'yes we can'
-    });
+    // socket.emit('createMessage',{
+    //     from: 'Dalal',
+    //     text: 'yes we can'
+    // });
 
 });
 
